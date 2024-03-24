@@ -39,8 +39,14 @@ jobs:
       - name: Use CNAME file if present
         run: "[ -e CNAME ] && cp CNAME dist"
 
+      - name: Upload to to pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
   deploy:
     needs: build
+    runs-on: ubuntu-latest
 
     permissions:
       pages: write # to deploy to Pages
@@ -50,7 +56,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
