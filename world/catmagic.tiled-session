@@ -1,0 +1,128 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "cat-world-1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "biome.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "bridge.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "cat-world-1.tmx": {
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 333.25,
+                "y": 132
+            }
+        },
+        "chest.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "chicken house.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "egg.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "fences.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "furniture.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "hills.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "milk.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "paths.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "plants.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "tilled dirt.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "tools.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "water.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "wooden house.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/dave/Downloads/Sprout Lands - Sprites - Basic pack/Objects",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "grass.tsx",
+        "cat-world-1.tmx",
+        "fences.tsx",
+        "hills.tsx",
+        "tilled dirt.tsx",
+        "water.tsx",
+        "wooden house.tsx",
+        "furniture.tsx",
+        "biome.tsx",
+        "plants.tsx",
+        "tools.tsx",
+        "chest.tsx",
+        "egg.tsx",
+        "chicken house.tsx",
+        "paths.tsx",
+        "milk.tsx",
+        "bridge.tsx"
+    ],
+    "project": "catmagic.tiled-project",
+    "recentFiles": [
+        "grass.tsx",
+        "bridge.tsx",
+        "milk.tsx",
+        "paths.tsx",
+        "chicken house.tsx",
+        "egg.tsx",
+        "chest.tsx",
+        "tools.tsx",
+        "plants.tsx",
+        "biome.tsx",
+        "furniture.tsx",
+        "wooden house.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
+}
