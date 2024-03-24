@@ -4,7 +4,7 @@ Version `0.0.1` by `Ellie` and Daddy aka `Dave Peck <davepeck@gmail.com>`.
 
 ### What is this?
 
-It's a game. With cats. And grass!
+It's a game. With cats. And grass! Fun!
 
 ### Yeah but what is it exactly?
 
