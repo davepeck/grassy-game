@@ -17,3 +17,9 @@ Visit https://grassy-game.cats-and-dogs.club/
 ### How do I run it on my own machine?
 
 `npm install`, `npm run dev`, and visit http://localhost:5173/
+
+### What's up with the music?
+
+`Ellie` made it!
+
+It's an Ableton 12 project. It requires Ableton Suite.
