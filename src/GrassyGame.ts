@@ -68,6 +68,7 @@ export const createGame = (root: HTMLElement) => {
           "/world/sproutlands/objects/Basic_Plants.png"
         );
         this.load.image("chestTiles", "/world/sproutlands/objects/Chest.png");
+        this.load.audio("catMagic", "/cat-magic.mp3");
       },
       create: function () {
         const map = this.make.tilemap({ key: "world" });
@@ -148,6 +149,8 @@ export const createGame = (root: HTMLElement) => {
         layers.forEach((layer) => {
           layer.setScale(2);
         });
+        const music = this.sound.add("catMagic", { loop: true });
+        music.play();
       },
     },
   };
