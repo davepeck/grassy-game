@@ -66,7 +66,7 @@ class MainScene extends Phaser.Scene {
         frameWidth: 16,
         frameHeight: 16,
         margin: 16,
-        spacing: 16,
+        spacing: 32,
       }
     );
   }
@@ -114,10 +114,13 @@ class MainScene extends Phaser.Scene {
         end: 3, // Ending frame index for the top row
         first: 0,
       }),
-      frameRate: 1, // How many frames to play per second
+      frameRate: 4, // How many frames to play per second
       repeat: -1, // Loop the animation
     });
-    this.add.sprite(16, 16, "catSprite").setScale(2).play("animateTopRow");
+    this.add
+      .sprite(0 * 32 + 16, 4 * 32 + 16, "catSprite")
+      .setScale(2)
+      .play("animateTopRow");
     const music = this.sound.add("catMagic", { loop: true });
     music.play();
   }
