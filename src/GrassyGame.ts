@@ -59,6 +59,16 @@ class MainScene extends Phaser.Scene {
     );
     this.load.image("chestTiles", "/world/sproutlands/objects/Chest.png");
     this.load.audio("catMagic", "/cat-magic.mp3");
+    this.load.spritesheet(
+      "catSprite",
+      "/world/sproutlands/characters/Basic Charakter Spritesheet.png",
+      {
+        frameWidth: 16,
+        frameHeight: 16,
+        margin: 16,
+        spacing: 16,
+      }
+    );
   }
 
   addTilesetImage(name: string, key: string): Phaser.Tilemaps.Tileset {
@@ -97,6 +107,17 @@ class MainScene extends Phaser.Scene {
     this.createLayer("Tile Layer 3");
     this.createLayer("Tile Layer 4");
     this.createLayer("Tile Layer 5");
+    this.anims.create({
+      key: "animateTopRow",
+      frames: this.anims.generateFrameNumbers("catSprite", {
+        start: 0, // Starting frame index for the top row
+        end: 3, // Ending frame index for the top row
+        first: 0,
+      }),
+      frameRate: 1, // How many frames to play per second
+      repeat: -1, // Loop the animation
+    });
+    this.add.sprite(16, 16, "catSprite").setScale(2).play("animateTopRow");
     const music = this.sound.add("catMagic", { loop: true });
     music.play();
   }
